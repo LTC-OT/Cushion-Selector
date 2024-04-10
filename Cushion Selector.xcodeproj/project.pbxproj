@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700B3F6927657074005F0CE6 /* Cushion SelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F6827657074005F0CE6 /* Cushion SelectorApp.swift */; };
+		700B3F6B27657074005F0CE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F6A27657074005F0CE6 /* ContentView.swift */; };
+		700B3F6D27657075005F0CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B3F6C27657075005F0CE6 /* Assets.xcassets */; };
+		700B3F7027657075005F0CE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B3F6F27657075005F0CE6 /* Preview Assets.xcassets */; };
+		700B3F7B27657204005F0CE6 /* FeatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F7A27657204005F0CE6 /* FeatureModel.swift */; };
+		700B3F7D27657761005F0CE6 /* FeatureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F7C27657761005F0CE6 /* FeatureData.swift */; };
+		700B3F7F27657A3F005F0CE6 /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F7E27657A3F005F0CE6 /* FeatureCardView.swift */; };
+		700B3F8127657A8F005F0CE6 /* FeatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F8027657A8F005F0CE6 /* FeatureDetailView.swift */; };
+		700B3F8327657AD8005F0CE6 /* FeatureBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B3F8227657AD8005F0CE6 /* FeatureBuildingView.swift */; };
+		700E8D42278A6BEF00FC6913 /* CushionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700E8D41278A6BEF00FC6913 /* CushionDetail.swift */; };
+		701014C229E500A600A9A88B /* CushionCardPostPelvic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014C129E500A600A9A88B /* CushionCardPostPelvic.swift */; };
+		701014C429E501F400A9A88B /* CushionPelvicTilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014C329E501F400A9A88B /* CushionPelvicTilt.swift */; };
+		701014C629E505D100A9A88B /* CushionPelvicObliquity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014C529E505D100A9A88B /* CushionPelvicObliquity.swift */; };
+		701014C829E5068000A9A88B /* CushionPelvicMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014C729E5068000A9A88B /* CushionPelvicMigration.swift */; };
+		701014CA29E5074700A9A88B /* CushionTightHamstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014C929E5074700A9A88B /* CushionTightHamstrings.swift */; };
+		701014CC29E5088A00A9A88B /* CushionLimitedHipFlexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014CB29E5088A00A9A88B /* CushionLimitedHipFlexion.swift */; };
+		701014CE29E5091900A9A88B /* CushionExtensorThrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014CD29E5091900A9A88B /* CushionExtensorThrust.swift */; };
+		701014D029E50A8B00A9A88B /* CushionLegLengthDiscrepancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014CF29E50A8B00A9A88B /* CushionLegLengthDiscrepancy.swift */; };
+		701014D229E5114500A9A88B /* CushionPelvicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014D129E5114500A9A88B /* CushionPelvicRotation.swift */; };
+		701014D429E511E200A9A88B /* CushionHipAdduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014D329E511E200A9A88B /* CushionHipAdduction.swift */; };
+		701014D629E512A100A9A88B /* CushionHipAbduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014D529E512A100A9A88B /* CushionHipAbduction.swift */; };
+		701014D829E513D800A9A88B /* CushionPainfulOrDislocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014D729E513D800A9A88B /* CushionPainfulOrDislocation.swift */; };
+		701014DA29E51AD000A9A88B /* CushionWindsWeeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014D929E51AD000A9A88B /* CushionWindsWeeping.swift */; };
+		701014DC29E51C8900A9A88B /* CushionWoundC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014DB29E51C8900A9A88B /* CushionWoundC.swift */; };
+		701014DE29E51CE900A9A88B /* CushionWoundC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701014DD29E51CE900A9A88B /* CushionWoundC1.swift */; };
+		701C27ED2A0679BB0017B2B4 /* TrapeziumShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C27EC2A0679BA0017B2B4 /* TrapeziumShapeView.swift */; };
+		7025923C2B965D8D0003FB0E /* BackgroundPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025923B2B965D8C0003FB0E /* BackgroundPanel.swift */; };
+		7034926728AC88C200945942 /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034926628AC88C200945942 /* CustomViewModifiers.swift */; };
+		7045EA9A276A919F001E463E /* PreLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045EA99276A919F001E463E /* PreLaunchView.swift */; };
+		7045EA9C276AA32C001E463E /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045EA9B276AA32C001E463E /* CatalogView.swift */; };
+		704656442BA36FF000D2F7FD /* ModelCushions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704656432BA36FF000D2F7FD /* ModelCushions.swift */; };
+		70478D53276AC7E4007B4A9E /* TerminologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70478D52276AC7E4007B4A9E /* TerminologyView.swift */; };
+		70478D55276AC7FD007B4A9E /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70478D54276AC7FD007B4A9E /* QuizView.swift */; };
+		70478D57276AD469007B4A9E /* TerminologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70478D56276AD469007B4A9E /* TerminologyModel.swift */; };
+		70478D59276AD66D007B4A9E /* TerminologyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70478D58276AD66D007B4A9E /* TerminologyData.swift */; };
+		704BC32D2A04A9EC005F1BA2 /* CurvedSidedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704BC32C2A04A9EC005F1BA2 /* CurvedSidedRectangle.swift */; };
+		707E0504276D0E7600123C84 /* TerminologyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E0503276D0E7600123C84 /* TerminologyRowView.swift */; };
+		707E0506276D0E9800123C84 /* TerminologyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E0505276D0E9800123C84 /* TerminologyDetailView.swift */; };
+		707E0509276D244000123C84 /* QuizAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E0508276D244000123C84 /* QuizAnswer.swift */; };
+		707ECE682A04569B008A814A /* FeatureCardSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707ECE672A04569B008A814A /* FeatureCardSheetView.swift */; };
+		70996C2E2B85448C001D32F4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70996C2D2B85448C001D32F4 /* Settings.swift */; };
+		70BC7AD62A0FBFEC00F1AA05 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BC7AD52A0FBFEC00F1AA05 /* FactsView.swift */; };
+		70BC7AD82A0FC15200F1AA05 /* FactsViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BC7AD72A0FC15200F1AA05 /* FactsViewOne.swift */; };
+		70E2853E278283B700BD6FD2 /* ImagenDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E2853D278283B700BD6FD2 /* ImagenDetail.swift */; };
+		70E9888A29871F5B00669E20 /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9888929871F5B00669E20 /* HomeViewScreen.swift */; };
+		70E9888C29871F9200669E20 /* SelectorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9888B29871F9200669E20 /* SelectorButton.swift */; };
+		70E9888E29871FE000669E20 /* CushionCatalogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9888D29871FE000669E20 /* CushionCatalogButton.swift */; };
+		70E988902987200C00669E20 /* TerminologyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9888F2987200C00669E20 /* TerminologyButton.swift */; };
+		70E98892298721B700669E20 /* QuizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E98891298721B700669E20 /* QuizButton.swift */; };
+		70F14AA62789E5B50084D345 /* ClientProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F14AA52789E5B50084D345 /* ClientProfile.swift */; };
+		70F14AA8278A282B0084D345 /* ClientCushion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F14AA7278A282B0084D345 /* ClientCushion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		700B3F6527657074005F0CE6 /* Cushion Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cushion Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B3F6827657074005F0CE6 /* Cushion SelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cushion SelectorApp.swift"; sourceTree = "<group>"; };
+		700B3F6A27657074005F0CE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		700B3F6C27657075005F0CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700B3F6F27657075005F0CE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		700B3F7A27657204005F0CE6 /* FeatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModel.swift; sourceTree = "<group>"; };
+		700B3F7C27657761005F0CE6 /* FeatureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureData.swift; sourceTree = "<group>"; };
+		700B3F7E27657A3F005F0CE6 /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
+		700B3F8027657A8F005F0CE6 /* FeatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureDetailView.swift; sourceTree = "<group>"; };
+		700B3F8227657AD8005F0CE6 /* FeatureBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBuildingView.swift; sourceTree = "<group>"; };
+		700E8D41278A6BEF00FC6913 /* CushionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionDetail.swift; sourceTree = "<group>"; };
+		701014C129E500A600A9A88B /* CushionCardPostPelvic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionCardPostPelvic.swift; sourceTree = "<group>"; };
+		701014C329E501F400A9A88B /* CushionPelvicTilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionPelvicTilt.swift; sourceTree = "<group>"; };
+		701014C529E505D100A9A88B /* CushionPelvicObliquity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionPelvicObliquity.swift; sourceTree = "<group>"; };
+		701014C729E5068000A9A88B /* CushionPelvicMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionPelvicMigration.swift; sourceTree = "<group>"; };
+		701014C929E5074700A9A88B /* CushionTightHamstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionTightHamstrings.swift; sourceTree = "<group>"; };
+		701014CB29E5088A00A9A88B /* CushionLimitedHipFlexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionLimitedHipFlexion.swift; sourceTree = "<group>"; };
+		701014CD29E5091900A9A88B /* CushionExtensorThrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionExtensorThrust.swift; sourceTree = "<group>"; };
+		701014CF29E50A8B00A9A88B /* CushionLegLengthDiscrepancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionLegLengthDiscrepancy.swift; sourceTree = "<group>"; };
+		701014D129E5114500A9A88B /* CushionPelvicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionPelvicRotation.swift; sourceTree = "<group>"; };
+		701014D329E511E200A9A88B /* CushionHipAdduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionHipAdduction.swift; sourceTree = "<group>"; };
+		701014D529E512A100A9A88B /* CushionHipAbduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionHipAbduction.swift; sourceTree = "<group>"; };
+		701014D729E513D800A9A88B /* CushionPainfulOrDislocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionPainfulOrDislocation.swift; sourceTree = "<group>"; };
+		701014D929E51AD000A9A88B /* CushionWindsWeeping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionWindsWeeping.swift; sourceTree = "<group>"; };
+		701014DB29E51C8900A9A88B /* CushionWoundC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionWoundC.swift; sourceTree = "<group>"; };
+		701014DD29E51CE900A9A88B /* CushionWoundC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionWoundC1.swift; sourceTree = "<group>"; };
+		701C27EC2A0679BA0017B2B4 /* TrapeziumShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapeziumShapeView.swift; sourceTree = "<group>"; };
+		7025923B2B965D8C0003FB0E /* BackgroundPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPanel.swift; sourceTree = "<group>"; };
+		7034926628AC88C200945942 /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		7045EA99276A919F001E463E /* PreLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunchView.swift; sourceTree = "<group>"; };
+		7045EA9B276AA32C001E463E /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		704656432BA36FF000D2F7FD /* ModelCushions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCushions.swift; sourceTree = "<group>"; };
+		70478D52276AC7E4007B4A9E /* TerminologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyView.swift; sourceTree = "<group>"; };
+		70478D54276AC7FD007B4A9E /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		70478D56276AD469007B4A9E /* TerminologyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyModel.swift; sourceTree = "<group>"; };
+		70478D58276AD66D007B4A9E /* TerminologyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyData.swift; sourceTree = "<group>"; };
+		704BC32C2A04A9EC005F1BA2 /* CurvedSidedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedSidedRectangle.swift; sourceTree = "<group>"; };
+		706068D428AD819700377026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		707E0503276D0E7600123C84 /* TerminologyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyRowView.swift; sourceTree = "<group>"; };
+		707E0505276D0E9800123C84 /* TerminologyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyDetailView.swift; sourceTree = "<group>"; };
+		707E0508276D244000123C84 /* QuizAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAnswer.swift; sourceTree = "<group>"; };
+		707ECE672A04569B008A814A /* FeatureCardSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardSheetView.swift; sourceTree = "<group>"; };
+		70996C2D2B85448C001D32F4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		70BC7AD52A0FBFEC00F1AA05 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		70BC7AD72A0FC15200F1AA05 /* FactsViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewOne.swift; sourceTree = "<group>"; };
+		70E2853D278283B700BD6FD2 /* ImagenDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenDetail.swift; sourceTree = "<group>"; };
+		70E9888929871F5B00669E20 /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
+		70E9888B29871F9200669E20 /* SelectorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorButton.swift; sourceTree = "<group>"; };
+		70E9888D29871FE000669E20 /* CushionCatalogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushionCatalogButton.swift; sourceTree = "<group>"; };
+		70E9888F2987200C00669E20 /* TerminologyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyButton.swift; sourceTree = "<group>"; };
+		70E98891298721B700669E20 /* QuizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButton.swift; sourceTree = "<group>"; };
+		70F14AA52789E5B50084D345 /* ClientProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfile.swift; sourceTree = "<group>"; };
+		70F14AA7278A282B0084D345 /* ClientCushion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCushion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700B3F6227657074005F0CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700B3F5C27657074005F0CE6 = {
+			isa = PBXGroup;
+			children = (
+				700B3F6727657074005F0CE6 /* Cushion Selector */,
+				700B3F6627657074005F0CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700B3F6627657074005F0CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F6527657074005F0CE6 /* Cushion Selector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700B3F6727657074005F0CE6 /* Cushion Selector */ = {
+			isa = PBXGroup;
+			children = (
+				704656422BA36FC600D2F7FD /* CushionModels */,
+				70E9888829871EFA00669E20 /* NewHomeScreen */,
+				706068D428AD819700377026 /* Info.plist */,
+				7034926528AC88A300945942 /* Extensions */,
+				700E8D3E278A6B9D00FC6913 /* Cushion selector views */,
+				707E0507276D23F800123C84 /* Quiz Views */,
+				707E0502276D0E3C00123C84 /* Terminology Views */,
+				700B3F7927657181005F0CE6 /* Feature Views */,
+				700B3F7827657167005F0CE6 /* Model */,
+				700B3F772765715E005F0CE6 /* Data */,
+				700B3F7627657130005F0CE6 /* Main View */,
+				700B3F6C27657075005F0CE6 /* Assets.xcassets */,
+				700B3F6E27657075005F0CE6 /* Preview Content */,
+			);
+			path = "Cushion Selector";
+			sourceTree = "<group>";
+		};
+		700B3F6E27657075005F0CE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F6F27657075005F0CE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		700B3F7627657130005F0CE6 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F6A27657074005F0CE6 /* ContentView.swift */,
+				700B3F6827657074005F0CE6 /* Cushion SelectorApp.swift */,
+				7045EA99276A919F001E463E /* PreLaunchView.swift */,
+				7045EA9B276AA32C001E463E /* CatalogView.swift */,
+				70478D52276AC7E4007B4A9E /* TerminologyView.swift */,
+				70F14AA52789E5B50084D345 /* ClientProfile.swift */,
+				70F14AA7278A282B0084D345 /* ClientCushion.swift */,
+				70BC7AD52A0FBFEC00F1AA05 /* FactsView.swift */,
+				70BC7AD72A0FC15200F1AA05 /* FactsViewOne.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		700B3F772765715E005F0CE6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F7C27657761005F0CE6 /* FeatureData.swift */,
+				70478D58276AD66D007B4A9E /* TerminologyData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		700B3F7827657167005F0CE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F7A27657204005F0CE6 /* FeatureModel.swift */,
+				70478D56276AD469007B4A9E /* TerminologyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		700B3F7927657181005F0CE6 /* Feature Views */ = {
+			isa = PBXGroup;
+			children = (
+				700B3F7E27657A3F005F0CE6 /* FeatureCardView.swift */,
+				700B3F8027657A8F005F0CE6 /* FeatureDetailView.swift */,
+				700B3F8227657AD8005F0CE6 /* FeatureBuildingView.swift */,
+				707ECE672A04569B008A814A /* FeatureCardSheetView.swift */,
+				704BC32C2A04A9EC005F1BA2 /* CurvedSidedRectangle.swift */,
+				701C27EC2A0679BA0017B2B4 /* TrapeziumShapeView.swift */,
+			);
+			path = "Feature Views";
+			sourceTree = "<group>";
+		};
+		700E8D3E278A6B9D00FC6913 /* Cushion selector views */ = {
+			isa = PBXGroup;
+			children = (
+				700E8D41278A6BEF00FC6913 /* CushionDetail.swift */,
+				701014C129E500A600A9A88B /* CushionCardPostPelvic.swift */,
+				701014C329E501F400A9A88B /* CushionPelvicTilt.swift */,
+				701014C529E505D100A9A88B /* CushionPelvicObliquity.swift */,
+				701014C729E5068000A9A88B /* CushionPelvicMigration.swift */,
+				701014C929E5074700A9A88B /* CushionTightHamstrings.swift */,
+				701014CB29E5088A00A9A88B /* CushionLimitedHipFlexion.swift */,
+				701014CD29E5091900A9A88B /* CushionExtensorThrust.swift */,
+				701014CF29E50A8B00A9A88B /* CushionLegLengthDiscrepancy.swift */,
+				701014D129E5114500A9A88B /* CushionPelvicRotation.swift */,
+				701014D329E511E200A9A88B /* CushionHipAdduction.swift */,
+				701014D529E512A100A9A88B /* CushionHipAbduction.swift */,
+				701014D729E513D800A9A88B /* CushionPainfulOrDislocation.swift */,
+				701014D929E51AD000A9A88B /* CushionWindsWeeping.swift */,
+				701014DB29E51C8900A9A88B /* CushionWoundC.swift */,
+				701014DD29E51CE900A9A88B /* CushionWoundC1.swift */,
+			);
+			path = "Cushion selector views";
+			sourceTree = "<group>";
+		};
+		7034926528AC88A300945942 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7034926628AC88C200945942 /* CustomViewModifiers.swift */,
+				7025923B2B965D8C0003FB0E /* BackgroundPanel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		704656422BA36FC600D2F7FD /* CushionModels */ = {
+			isa = PBXGroup;
+			children = (
+				704656432BA36FF000D2F7FD /* ModelCushions.swift */,
+			);
+			path = CushionModels;
+			sourceTree = "<group>";
+		};
+		707E0502276D0E3C00123C84 /* Terminology Views */ = {
+			isa = PBXGroup;
+			children = (
+				707E0503276D0E7600123C84 /* TerminologyRowView.swift */,
+				707E0505276D0E9800123C84 /* TerminologyDetailView.swift */,
+				70E2853D278283B700BD6FD2 /* ImagenDetail.swift */,
+			);
+			path = "Terminology Views";
+			sourceTree = "<group>";
+		};
+		707E0507276D23F800123C84 /* Quiz Views */ = {
+			isa = PBXGroup;
+			children = (
+				70478D54276AC7FD007B4A9E /* QuizView.swift */,
+				707E0508276D244000123C84 /* QuizAnswer.swift */,
+			);
+			path = "Quiz Views";
+			sourceTree = "<group>";
+		};
+		70E9888829871EFA00669E20 /* NewHomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				70E9888929871F5B00669E20 /* HomeViewScreen.swift */,
+				70E9888B29871F9200669E20 /* SelectorButton.swift */,
+				70E9888D29871FE000669E20 /* CushionCatalogButton.swift */,
+				70E9888F2987200C00669E20 /* TerminologyButton.swift */,
+				70E98891298721B700669E20 /* QuizButton.swift */,
+				70996C2D2B85448C001D32F4 /* Settings.swift */,
+			);
+			path = NewHomeScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700B3F6427657074005F0CE6 /* Cushion Selector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B3F7327657075005F0CE6 /* Build configuration list for PBXNativeTarget "Cushion Selector" */;
+			buildPhases = (
+				700B3F6127657074005F0CE6 /* Sources */,
+				700B3F6227657074005F0CE6 /* Frameworks */,
+				700B3F6327657074005F0CE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cushion Selector";
+			productName = Cushions;
+			productReference = 700B3F6527657074005F0CE6 /* Cushion Selector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700B3F5D27657074005F0CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					700B3F6427657074005F0CE6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 700B3F6027657074005F0CE6 /* Build configuration list for PBXProject "Cushion Selector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700B3F5C27657074005F0CE6;
+			productRefGroup = 700B3F6627657074005F0CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700B3F6427657074005F0CE6 /* Cushion Selector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700B3F6327657074005F0CE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B3F7027657075005F0CE6 /* Preview Assets.xcassets in Resources */,
+				700B3F6D27657075005F0CE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700B3F6127657074005F0CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B3F8327657AD8005F0CE6 /* FeatureBuildingView.swift in Sources */,
+				701014C829E5068000A9A88B /* CushionPelvicMigration.swift in Sources */,
+				701014CC29E5088A00A9A88B /* CushionLimitedHipFlexion.swift in Sources */,
+				7045EA9C276AA32C001E463E /* CatalogView.swift in Sources */,
+				70478D55276AC7FD007B4A9E /* QuizView.swift in Sources */,
+				701014D029E50A8B00A9A88B /* CushionLegLengthDiscrepancy.swift in Sources */,
+				70E9888A29871F5B00669E20 /* HomeViewScreen.swift in Sources */,
+				70996C2E2B85448C001D32F4 /* Settings.swift in Sources */,
+				70F14AA8278A282B0084D345 /* ClientCushion.swift in Sources */,
+				704BC32D2A04A9EC005F1BA2 /* CurvedSidedRectangle.swift in Sources */,
+				70E9888C29871F9200669E20 /* SelectorButton.swift in Sources */,
+				701014DA29E51AD000A9A88B /* CushionWindsWeeping.swift in Sources */,
+				700E8D42278A6BEF00FC6913 /* CushionDetail.swift in Sources */,
+				70478D57276AD469007B4A9E /* TerminologyModel.swift in Sources */,
+				707E0509276D244000123C84 /* QuizAnswer.swift in Sources */,
+				7034926728AC88C200945942 /* CustomViewModifiers.swift in Sources */,
+				7025923C2B965D8D0003FB0E /* BackgroundPanel.swift in Sources */,
+				70E988902987200C00669E20 /* TerminologyButton.swift in Sources */,
+				700B3F8127657A8F005F0CE6 /* FeatureDetailView.swift in Sources */,
+				704656442BA36FF000D2F7FD /* ModelCushions.swift in Sources */,
+				701014D629E512A100A9A88B /* CushionHipAbduction.swift in Sources */,
+				707E0506276D0E9800123C84 /* TerminologyDetailView.swift in Sources */,
+				700B3F6B27657074005F0CE6 /* ContentView.swift in Sources */,
+				70E2853E278283B700BD6FD2 /* ImagenDetail.swift in Sources */,
+				7045EA9A276A919F001E463E /* PreLaunchView.swift in Sources */,
+				70BC7AD62A0FBFEC00F1AA05 /* FactsView.swift in Sources */,
+				701014CA29E5074700A9A88B /* CushionTightHamstrings.swift in Sources */,
+				700B3F7B27657204005F0CE6 /* FeatureModel.swift in Sources */,
+				701014D429E511E200A9A88B /* CushionHipAdduction.swift in Sources */,
+				701014CE29E5091900A9A88B /* CushionExtensorThrust.swift in Sources */,
+				700B3F7F27657A3F005F0CE6 /* FeatureCardView.swift in Sources */,
+				70F14AA62789E5B50084D345 /* ClientProfile.swift in Sources */,
+				701014D229E5114500A9A88B /* CushionPelvicRotation.swift in Sources */,
+				701014C629E505D100A9A88B /* CushionPelvicObliquity.swift in Sources */,
+				707E0504276D0E7600123C84 /* TerminologyRowView.swift in Sources */,
+				701014DC29E51C8900A9A88B /* CushionWoundC.swift in Sources */,
+				701014C229E500A600A9A88B /* CushionCardPostPelvic.swift in Sources */,
+				70BC7AD82A0FC15200F1AA05 /* FactsViewOne.swift in Sources */,
+				701014D829E513D800A9A88B /* CushionPainfulOrDislocation.swift in Sources */,
+				701014C429E501F400A9A88B /* CushionPelvicTilt.swift in Sources */,
+				700B3F7D27657761005F0CE6 /* FeatureData.swift in Sources */,
+				70478D53276AC7E4007B4A9E /* TerminologyView.swift in Sources */,
+				707ECE682A04569B008A814A /* FeatureCardSheetView.swift in Sources */,
+				70E98892298721B700669E20 /* QuizButton.swift in Sources */,
+				70E9888E29871FE000669E20 /* CushionCatalogButton.swift in Sources */,
+				701014DE29E51CE900A9A88B /* CushionWoundC1.swift in Sources */,
+				701C27ED2A0679BB0017B2B4 /* TrapeziumShapeView.swift in Sources */,
+				700B3F6927657074005F0CE6 /* Cushion SelectorApp.swift in Sources */,
+				70478D59276AD66D007B4A9E /* TerminologyData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		700B3F7127657075005F0CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		700B3F7227657075005F0CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700B3F7427657075005F0CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cushion Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cushion Selector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cushion Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Cushion-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		700B3F7527657075005F0CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cushion Selector/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cushion Selector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cushion Selector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Cushion-Selector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700B3F6027657074005F0CE6 /* Build configuration list for PBXProject "Cushion Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B3F7127657075005F0CE6 /* Debug */,
+				700B3F7227657075005F0CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B3F7327657075005F0CE6 /* Build configuration list for PBXNativeTarget "Cushion Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B3F7427657075005F0CE6 /* Debug */,
+				700B3F7527657075005F0CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700B3F5D27657074005F0CE6 /* Project object */;
+}
