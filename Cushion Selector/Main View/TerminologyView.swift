@@ -43,7 +43,7 @@ struct TerminologyView: View {
                 terminologies = titles
             }
         }
-    }
+    }//body some view closure
 }
 
 
